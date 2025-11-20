@@ -18,7 +18,7 @@ mongoose.connect("mongodb+srv://abdrosheed:Sodiq234@cluster0.4na51p0.mongodb.net
 dotenv.config()
 
 server.use(cors({
-    origin: "http://localhost:3000"
+    origin: "https://geegstackecommerce.onrender.com"
 }))
 
 server.use(fileUpload({
