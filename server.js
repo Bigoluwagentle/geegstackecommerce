@@ -18,7 +18,7 @@ mongoose.connect("mongodb+srv://abdrosheed:Sodiq234@cluster0.4na51p0.mongodb.net
 dotenv.config()
 
 server.use(cors({
-    origin: "https://geegstackecommerce.onrender.com"
+    origin: "https://geegstackfullstack.vercel.app"
 }))
 
 server.use(fileUpload({
